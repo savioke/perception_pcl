@@ -5,8 +5,8 @@ Changelog for package perception_pcl
 1.7.5 (2023-01-19)
 ------------------
 
-Forthcoming
------------
+100.0.0 (2025-03-14)
+--------------------
 * 1.7.5
 * Update changelogs
 * Contributors: Paul Bovbel

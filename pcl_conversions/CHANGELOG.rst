@@ -5,8 +5,8 @@ Changelog for package pcl_conversions
 1.7.5 (2023-01-19)
 ------------------
 
-Forthcoming
------------
+100.0.0 (2025-03-14)
+--------------------
 * add missing build_depend
   As they are find_package(... REQUIRED) in the CMakeLists.txt
   to fill in the catkin_package(DEPENDS ...) section,

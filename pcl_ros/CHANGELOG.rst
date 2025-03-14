@@ -14,8 +14,8 @@ Changelog for package pcl_ros
   Co-authored-by: Jochen Sprickerhof <jspricke@debian.org>
 * Contributors: Jochen Sprickerhof, Markus Vieth, Tom Moore
 
-Forthcoming
------------
+100.0.0 (2025-03-14)
+--------------------
 * Drop old C++ standard
 * Switch to new boost/bind/bind.hpp
 * 1.7.5
