@@ -5,6 +5,21 @@ Changelog for package pcl_conversions
 1.7.5 (2023-01-19)
 ------------------
 
+Forthcoming
+-----------
+* add missing build_depend
+  As they are find_package(... REQUIRED) in the CMakeLists.txt
+  to fill in the catkin_package(DEPENDS ...) section,
+  they are build dependencies.
+* sorts pc msg fields by offset (`#437 <https://github.com/savioke/perception_pcl/issues/437>`_)
+* In PCL 1.14.1 and newer, generate smaller point cloud msgs (`#449 <https://github.com/savioke/perception_pcl/issues/449>`_)
+  See also https://github.com/PointCloudLibrary/pcl/pull/5913
+* Avoid copying data in fromROSMsg with PCL >= 1.13.1 (`#404 <https://github.com/savioke/perception_pcl/issues/404>`_)
+  See also https://github.com/PointCloudLibrary/pcl/pull/5608
+* 1.7.5
+* Update changelogs
+* Contributors: Marco Salathe, Markus Vieth, Paul Bovbel, v4hn
+
 1.7.0 (2019-07-03)
 ------------------
 * [Windows][melodic-devel] Fix Boost linkage issue and binary install location. (`#238 <https://github.com/ros-perception/perception_pcl/issues/238>`_)
